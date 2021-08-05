@@ -1,0 +1,4 @@
+useDynLib(eigenclasses)
+import(RcppEigen)
+importFrom(Rcpp, evalCpp)
+export("MatrixAttempt")
